@@ -1,0 +1,10 @@
+{
+    "thresholds": {
+      "cpu": 90,
+      "ram": 85,
+      "disk_free": 5
+    },
+    "mongo_uri": "mongodb://localhost:27017/",
+    "discord_webhook_url": "https://discord.com/api/webhooks/1351022825011548200/L0Qsh2945k92VMVlXweQYjAhVqFJkEjOCC39e8PvD1QJt5rccYxO6n2wq6KyZdNG9cUX",
+    "refresh_interval": 15000
+  }

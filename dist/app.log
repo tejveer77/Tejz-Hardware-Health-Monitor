@@ -1,0 +1,52 @@
+2025-03-19 14:30:57,790 - INFO - Starting app
+2025-03-19 14:30:57,855 - ERROR - App crashed: [Errno 2] No such file or directory: 'config.json'
+2025-03-19 14:31:02,703 - INFO - Starting app
+2025-03-19 14:31:02,776 - ERROR - App crashed: [Errno 2] No such file or directory: 'config.json'
+2025-03-19 14:31:32,917 - INFO - Starting app
+2025-03-19 14:31:32,995 - INFO - Connected to MongoDB
+2025-03-19 14:31:35,558 - WARNING - WMI temp failed: Command 'powershell -Command "Get-WmiObject MSAcpi_ThermalZoneTemperature -Namespace 'root/wmi' | Select-Object -Property CurrentTemperature | ForEach-Object { ($_.CurrentTemperature / 10) - 273.15 }"' returned non-zero exit status 1.. Estimated temp: 40.555°C
+2025-03-19 14:31:35,559 - INFO - Stats logged: {'cpu': 5.0, 'ram': 79.9, 'disk_free': 119.53667449951172, 'cpu_temp': 40.555, 'timestamp': datetime.datetime(2025, 3, 19, 18, 31, 35, 558418), '_id': ObjectId('67db0d87f228ad9d2376da84')}
+2025-03-19 14:31:35,563 - WARNING - Issues: []
+2025-03-19 14:31:53,043 - WARNING - WMI temp failed: Command 'powershell -Command "Get-WmiObject MSAcpi_ThermalZoneTemperature -Namespace 'root/wmi' | Select-Object -Property CurrentTemperature | ForEach-Object { ($_.CurrentTemperature / 10) - 273.15 }"' returned non-zero exit status 1.. Estimated temp: 45.12°C
+2025-03-19 14:31:53,046 - INFO - Stats logged: {'cpu': 15.4, 'ram': 80.2, 'disk_free': 119.53672409057617, 'cpu_temp': 45.12, 'timestamp': datetime.datetime(2025, 3, 19, 18, 31, 53, 43686), '_id': ObjectId('67db0d99f228ad9d2376da85')}
+2025-03-19 14:31:53,049 - WARNING - Issues: []
+2025-03-19 14:32:10,574 - WARNING - WMI temp failed: Command 'powershell -Command "Get-WmiObject MSAcpi_ThermalZoneTemperature -Namespace 'root/wmi' | Select-Object -Property CurrentTemperature | ForEach-Object { ($_.CurrentTemperature / 10) - 273.15 }"' returned non-zero exit status 1.. Estimated temp: 40.83°C
+2025-03-19 14:32:10,577 - INFO - Stats logged: {'cpu': 22.7, 'ram': 82.3, 'disk_free': 119.52362060546875, 'cpu_temp': 40.83, 'timestamp': datetime.datetime(2025, 3, 19, 18, 32, 10, 574787), '_id': ObjectId('67db0daaf228ad9d2376da86')}
+2025-03-19 14:32:10,579 - WARNING - Issues: []
+2025-03-19 14:32:28,286 - WARNING - WMI temp failed: Command 'powershell -Command "Get-WmiObject MSAcpi_ThermalZoneTemperature -Namespace 'root/wmi' | Select-Object -Property CurrentTemperature | ForEach-Object { ($_.CurrentTemperature / 10) - 273.15 }"' returned non-zero exit status 1.. Estimated temp: 62.17°C
+2025-03-19 14:32:28,288 - INFO - Stats logged: {'cpu': 46.8, 'ram': 89.9, 'disk_free': 119.52376556396484, 'cpu_temp': 62.17, 'timestamp': datetime.datetime(2025, 3, 19, 18, 32, 28, 287425), '_id': ObjectId('67db0dbcf228ad9d2376da87')}
+2025-03-19 14:32:28,293 - WARNING - Issues: ['High RAM: 89.9%']
+2025-03-19 14:32:28,758 - ERROR - Discord failed: Database objects do not implement truth value testing or bool(). Please compare with None instead: database is not None
+2025-03-19 14:32:39,564 - WARNING - WMI temp failed: Command 'powershell -Command "Get-WmiObject MSAcpi_ThermalZoneTemperature -Namespace 'root/wmi' | Select-Object -Property CurrentTemperature | ForEach-Object { ($_.CurrentTemperature / 10) - 273.15 }"' returned non-zero exit status 1.. Estimated temp: 75.64500000000001°C
+2025-03-19 14:32:39,567 - INFO - Stats logged: {'cpu': 93.1, 'ram': 89.2, 'disk_free': 119.49469375610352, 'cpu_temp': 75.64500000000001, 'timestamp': datetime.datetime(2025, 3, 19, 18, 32, 39, 564626), '_id': ObjectId('67db0dc7f228ad9d2376da89')}
+2025-03-19 14:32:39,577 - WARNING - Issues: ['High CPU: 93.1%', 'High RAM: 89.2%']
+2025-03-19 14:32:41,841 - ERROR - Discord failed: Database objects do not implement truth value testing or bool(). Please compare with None instead: database is not None
+2025-03-19 14:32:46,440 - WARNING - WMI temp failed: Command 'powershell -Command "Get-WmiObject MSAcpi_ThermalZoneTemperature -Namespace 'root/wmi' | Select-Object -Property CurrentTemperature | ForEach-Object { ($_.CurrentTemperature / 10) - 273.15 }"' returned non-zero exit status 1.. Estimated temp: 54.30500000000001°C
+2025-03-19 14:32:46,441 - INFO - Stats logged: {'cpu': 35.2, 'ram': 91.1, 'disk_free': 119.50384521484375, 'cpu_temp': 54.30500000000001, 'timestamp': datetime.datetime(2025, 3, 19, 18, 32, 46, 440328), '_id': ObjectId('67db0dcef228ad9d2376da8c')}
+2025-03-19 14:32:46,444 - WARNING - Issues: ['High RAM: 91.1%']
+2025-03-19 14:32:46,745 - ERROR - Discord failed: Database objects do not implement truth value testing or bool(). Please compare with None instead: database is not None
+2025-03-19 14:32:59,402 - WARNING - WMI temp failed: Command 'powershell -Command "Get-WmiObject MSAcpi_ThermalZoneTemperature -Namespace 'root/wmi' | Select-Object -Property CurrentTemperature | ForEach-Object { ($_.CurrentTemperature / 10) - 273.15 }"' returned non-zero exit status 1.. Estimated temp: 47.32°C
+2025-03-19 14:32:59,404 - INFO - Stats logged: {'cpu': 42.1, 'ram': 93.8, 'disk_free': 119.45542526245117, 'cpu_temp': 47.32, 'timestamp': datetime.datetime(2025, 3, 19, 18, 32, 59, 403054), '_id': ObjectId('67db0ddbf228ad9d2376da8e')}
+2025-03-19 14:32:59,406 - WARNING - Issues: ['High RAM: 93.8%']
+2025-03-19 14:32:59,750 - ERROR - Discord failed: Database objects do not implement truth value testing or bool(). Please compare with None instead: database is not None
+2025-03-19 14:33:04,278 - WARNING - WMI temp failed: Command 'powershell -Command "Get-WmiObject MSAcpi_ThermalZoneTemperature -Namespace 'root/wmi' | Select-Object -Property CurrentTemperature | ForEach-Object { ($_.CurrentTemperature / 10) - 273.15 }"' returned non-zero exit status 1.. Estimated temp: 47.21°C
+2025-03-19 14:33:04,280 - INFO - Stats logged: {'cpu': 49.6, 'ram': 92.2, 'disk_free': 119.44641494750977, 'cpu_temp': 47.21, 'timestamp': datetime.datetime(2025, 3, 19, 18, 33, 4, 279467), '_id': ObjectId('67db0de0f228ad9d2376da90')}
+2025-03-19 14:33:04,282 - WARNING - Issues: ['High RAM: 92.2%']
+2025-03-19 14:33:16,537 - ERROR - Discord failed: Database objects do not implement truth value testing or bool(). Please compare with None instead: database is not None
+2025-03-19 14:33:18,994 - WARNING - WMI temp failed: Command 'powershell -Command "Get-WmiObject MSAcpi_ThermalZoneTemperature -Namespace 'root/wmi' | Select-Object -Property CurrentTemperature | ForEach-Object { ($_.CurrentTemperature / 10) - 273.15 }"' returned non-zero exit status 1.. Estimated temp: 44.405°C
+2025-03-19 14:33:18,995 - INFO - Stats logged: {'cpu': 17.2, 'ram': 76.2, 'disk_free': 119.44661712646484, 'cpu_temp': 44.405, 'timestamp': datetime.datetime(2025, 3, 19, 18, 33, 18, 994096), '_id': ObjectId('67db0deef228ad9d2376da92')}
+2025-03-19 14:33:18,997 - WARNING - Issues: []
+2025-03-19 14:33:33,971 - WARNING - WMI temp failed: Command 'powershell -Command "Get-WmiObject MSAcpi_ThermalZoneTemperature -Namespace 'root/wmi' | Select-Object -Property CurrentTemperature | ForEach-Object { ($_.CurrentTemperature / 10) - 273.15 }"' returned non-zero exit status 1.. Estimated temp: 46.44°C
+2025-03-19 14:33:33,974 - INFO - Stats logged: {'cpu': 16.2, 'ram': 75.4, 'disk_free': 119.46046447753906, 'cpu_temp': 46.44, 'timestamp': datetime.datetime(2025, 3, 19, 18, 33, 33, 973045), '_id': ObjectId('67db0dfdf228ad9d2376da93')}
+2025-03-19 14:33:33,976 - WARNING - Issues: []
+2025-03-19 14:33:36,452 - WARNING - WMI temp failed: Command 'powershell -Command "Get-WmiObject MSAcpi_ThermalZoneTemperature -Namespace 'root/wmi' | Select-Object -Property CurrentTemperature | ForEach-Object { ($_.CurrentTemperature / 10) - 273.15 }"' returned non-zero exit status 1.. Estimated temp: 45.065°C
+2025-03-19 14:33:36,455 - INFO - Stats logged: {'cpu': 15.0, 'ram': 75.7, 'disk_free': 119.46044158935547, 'cpu_temp': 45.065, 'timestamp': datetime.datetime(2025, 3, 19, 18, 33, 36, 452006), '_id': ObjectId('67db0e00f228ad9d2376da94')}
+2025-03-19 14:33:36,456 - WARNING - Issues: []
+2025-03-19 14:37:05,585 - INFO - Starting app
+2025-03-19 14:37:05,688 - INFO - Connected to MongoDB
+2025-03-19 14:37:08,183 - WARNING - WMI temp failed: Command 'powershell -Command "Get-WmiObject MSAcpi_ThermalZoneTemperature -Namespace 'root/wmi' | Select-Object -Property CurrentTemperature | ForEach-Object { ($_.CurrentTemperature / 10) - 273.15 }"' returned non-zero exit status 1.. Estimated temp: 43.525°C
+2025-03-19 14:37:08,185 - INFO - Stats logged: {'cpu': 9.5, 'ram': 72.3, 'disk_free': 119.51148223876953, 'cpu_temp': 43.525, 'timestamp': datetime.datetime(2025, 3, 19, 18, 37, 8, 183536), '_id': ObjectId('67db0ed446e138c2bf4baa9f')}
+2025-03-19 14:37:08,185 - WARNING - Issues: []
+2025-03-19 14:37:16,619 - WARNING - WMI temp failed: Command 'powershell -Command "Get-WmiObject MSAcpi_ThermalZoneTemperature -Namespace 'root/wmi' | Select-Object -Property CurrentTemperature | ForEach-Object { ($_.CurrentTemperature / 10) - 273.15 }"' returned non-zero exit status 1.. Estimated temp: 40.885°C
+2025-03-19 14:37:16,624 - INFO - Stats logged: {'cpu': 20.5, 'ram': 72.2, 'disk_free': 119.51141738891602, 'cpu_temp': 40.885, 'timestamp': datetime.datetime(2025, 3, 19, 18, 37, 16, 621614), '_id': ObjectId('67db0edc46e138c2bf4baaa0')}
+2025-03-19 14:37:16,625 - WARNING - Issues: []
