@@ -20,17 +20,15 @@ Tejz Hardware Monitor is a standalone Windows application designed for IT system
 - **Dependencies**: None for end-users—all bundled in the `.exe`.
 - **Configuration**: Requires a `config.json` file (template provided).
 
-## Run .exe
-- Open the dist folder
--- Select main.exe
--- Wait for few seconds 
--- Refresh it to view real time information
--- View App Log to see issues occured in last 24 hours
 
 ## Installation
 1. **Download**:
    - Clone or download this repository:
      ```bash
-     git clone https://github.com/tejveer77/Tejz-Hardware-Monitor.git
+     git clone https://github.com/tejveer77/Tejz-Hardware-Health-Monitor.git
      Please include you discord webhook in config.json
+2. After cloning please go to folder and open dist folder
+3. Make sure config.json and main.exe are present in dist
+4. Click main.exe and you will be able to run it 
+     
      
