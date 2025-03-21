@@ -29,6 +29,13 @@ Tejz Hardware Monitor is a standalone Windows application designed for IT system
      Please include you discord webhook in config.json
 2. After cloning please go to folder and open dist folder
 3. Make sure config.json and main.exe are present in dist
-4. Click main.exe and you will be able to run it 
+4. Click main.exe and you will be able to run it
+
+## If it throws Error and app crashes
+Please clone repository and delete dist folder but make sure you don't delete config.json
+After that please run the following command in terminal
+```bash
+pyinstaller -F --add-data "config.json;." main.py -n HardwareMonitor
+After installation is done please place config.json in dist folder and you can run main.exe now .
      
      
